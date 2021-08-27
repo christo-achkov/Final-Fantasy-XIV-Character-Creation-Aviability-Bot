@@ -1,5 +1,5 @@
 # Final Fantasy XIV Character Creation Aviability Bot
-Want to make a character on a certain FFXIV server but don't want check 200 times a day? This tool will help you achieve that. Setup takes less than 5 mintues.
+Want to make a character on a certain congested FFXIV server but don't want check 200 times a day? This tool will help you achieve that. Setup takes less than 5 mintues.
 
 # Setup
 This bot is self-hosted, so you will need to do a few things to get it running:
