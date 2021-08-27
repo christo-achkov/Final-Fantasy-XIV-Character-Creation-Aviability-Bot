@@ -1,13 +1,13 @@
 # Final Fantasy XIV Character Creation Aviability Bot
-Want to make a character on certain FFXIV server but don't want check 200 times a day? This tool will help you achieve that. Setup takes less than 5 mintues.
+Want to make a character on a certain FFXIV server but don't want check 200 times a day? This tool will help you achieve that. Setup takes less than 5 mintues.
 
 # Setup
-This bot is self-hosted, so you will need to have a few things to get it running:
+This bot is self-hosted, so you will need to do a few things to get it running:
 1. Install Node.js https://nodejs.org/en/
 2. Create a discord bot account https://discordpy.readthedocs.io/en/stable/discord.html and create a new token
 3. Invite the discord bot account to your server
 4. Download this repository
-5. Open a CMD in it's base directory and write `npm install`
+5. Open a CMD in its base directory and write `npm install`
 6. Configure the bot
 7. After the dependencies and configuration are done installing write `npm start`
 
