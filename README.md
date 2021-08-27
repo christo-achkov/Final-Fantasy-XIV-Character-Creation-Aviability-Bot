@@ -7,7 +7,7 @@ This bot is selfhosted, so you will need to have a few things to get it running:
 2. Create a discord bot account https://discordpy.readthedocs.io/en/stable/discord.html and create a new token
 3. Invite the discord bot account to your server
 4. Download this repository
-5. Open a CMD in it's base directory and write a `npm install`
+5. Open a CMD in it's base directory and write `npm install`
 6. Configure the bot
 7. After the dependencies and configuration are done installing write `npm start`
 
