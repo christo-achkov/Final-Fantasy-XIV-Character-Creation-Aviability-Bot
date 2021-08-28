@@ -17,3 +17,4 @@ In .env you can configure the following parameters:
 2. `USERS_TO_NOTIFY` - paste the IDs of the users you want to notify (right click on user and then select Copy ID) and format it in the following way `USERS_TO_NOTIFY="<@USERID1> <@USERID2> etc..."`
 3. `CHANNEL_ID` - The ID of the channel you want to use (right click and copy ID on the channel name)
 4. `SERVER_NAME` - The server name you want to make your character on (Odin for example)
+5. `POLLING_INTERVAL` - Should be left as is. This is the frequency that the bot will check for character creation aviability.

@@ -11,14 +11,13 @@ client.login(process.env.DISCORDJS_BOT_TOKEN);
 client.on('ready', () => {
     const channel = client.channels.cache.get(process.env.CHANNEL_ID);
 
-    const interval = 60 * 1000;
     setInterval(async () => {
         var result = await getByWorldName(process.env.SERVER_NAME);
 
         if (!result.createCharacter) return;
-        channel.send(`${process.env.USERS_TO_NOTIFY} chracter creation on Odin is available!!!!!!!!`);
+        channel.send(`${process.env.USERS_TO_NOTIFY} chracter creation on ${process.env.SERVER_NAME} is available!!!!!!!!`);
 
-    }, interval)
+    }, process.env.POLLING_INTERVAL)
 });
 
 const getStatus = async () => {
