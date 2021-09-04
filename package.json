@@ -1,29 +1,28 @@
 {
-    "name": "mudae-waifu-stealer",
-    "version": "1.0.0",
-    "description": "A bot that snipes waifu rolls from a dumb gacha game",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "start": "node ./src/bot.js",
-        "dev": "nodemon ./src/bot.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/zaibatsu-loli/mudae-waifu-stealer.git"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/zaibatsu-loli/mudae-waifu-stealer/issues"
-    },
-    "homepage": "https://github.com/zaibatsu-loli/mudae-waifu-stealer#readme",
-    "dependencies": {
-        "axios": "^0.21.1",
-        "cheerio": "^1.0.0-rc.10",
-        "discord.js": "^12.5.3",
-        "discord.js-selfbot": "^12.0.2",
-        "dotenv": "^10.0.0"
-    }
+  "name": "Final-Fantasy-XIV-Character-Creation-Aviability-Bot",
+  "version": "1.0.0",
+  "description": "Final Fantasy XIV Character Creation Aviability Bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/bot.js",
+    "dev": "nodemon ./src/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christo-achkov/Final-Fantasy-XIV-Character-Creation-Aviability-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "GPT3.0",
+  "bugs": {
+    "url": "https://github.com/christo-achkov/Final-Fantasy-XIV-Character-Creation-Aviability-Bot"
+  },
+  "homepage": "https://github.com/christo-achkov/Final-Fantasy-XIV-Character-Creation-Aviability-Bot",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.10",
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0"
+  }
 }
